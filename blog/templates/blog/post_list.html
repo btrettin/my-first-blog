@@ -1,9 +1,71 @@
+{% load staticfiles %}
+<!doctype html>
 <html>
-<head>
-        <title>Ola's blog</title>
-    </head>
-    <body>
-    <p>Hi there!</p>
-    <p>It works!</p>
-    </body<>
+	<head>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Steph Curry Fan Page</title>
+		<link rel="author" content="Ben Trettin">
+	</head>
+	<body>
+	
+	    <header>
+			<div id="branding">
+				<h1><span class="highlight">Stephen</span> Curry</h1>	
+			</div>
+			<div id="header-social">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-instagram"></a>
+			</div>
+			<nav>
+				<ul>
+					<li class="current"><a href="">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="showcase">
+			<div class="container">
+				<h1>Baby-Faced Assassin</h1>
+			</div>
+		</section>
+
+
+		<section id="newsletter">
+			<div class="container">
+				<h1>Learn more about Steph</h1>
+					<form>
+						<input type="email" placeholder="enter email">
+						<button type="submit" class="button_1">Subscribe</button>
+					</form>
+			</div>
+		</section>
+
+		<section id="boxes">
+			<div class="container">
+				Steph Curry 
+			</div>
+		</section>
+
+		<footer>
+			<p>Steph Curry Fan Page Copyright &copy; 2017</p>
+		</footer>
+
+	</body>
 </html>
+
+
+
+
+
+
